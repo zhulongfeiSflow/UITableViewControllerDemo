@@ -13,6 +13,9 @@
 		7A9679511B87085500835A65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9679501B87085500835A65 /* Images.xcassets */; };
 		7A9679541B87085500835A65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9679521B87085500835A65 /* LaunchScreen.xib */; };
 		7A9679601B87085500835A65 /* UITableViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96795F1B87085500835A65 /* UITableViewControllerDemoTests.swift */; };
+		7A96796A1B870AA800835A65 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9679691B870AA800835A65 /* RootTableViewController.swift */; };
+		7A96796C1B870C5500835A65 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96796B1B870C5500835A65 /* WebViewController.swift */; };
+		7A96796E1B870C7100835A65 /* XHNewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96796D1B870C7100835A65 /* XHNewsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7A9679591B87085500835A65 /* UITableViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A96795E1B87085500835A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A96795F1B87085500835A65 /* UITableViewControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewControllerDemoTests.swift; sourceTree = "<group>"; };
+		7A9679691B870AA800835A65 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		7A96796B1B870C5500835A65 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7A96796D1B870C7100835A65 /* XHNewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHNewsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		7A9679461B87085500835A65 /* UITableViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A9679691B870AA800835A65 /* RootTableViewController.swift */,
+				7A96796B1B870C5500835A65 /* WebViewController.swift */,
+				7A96796D1B870C7100835A65 /* XHNewsItem.swift */,
 				7A9679491B87085500835A65 /* AppDelegate.swift */,
 				7A96794B1B87085500835A65 /* ViewController.swift */,
 				7A96794D1B87085500835A65 /* Main.storyboard */,
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A96794C1B87085500835A65 /* ViewController.swift in Sources */,
+				7A96796E1B870C7100835A65 /* XHNewsItem.swift in Sources */,
+				7A96796A1B870AA800835A65 /* RootTableViewController.swift in Sources */,
 				7A96794A1B87085500835A65 /* AppDelegate.swift in Sources */,
+				7A96796C1B870C5500835A65 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
